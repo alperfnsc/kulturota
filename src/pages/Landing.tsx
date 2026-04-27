@@ -13,8 +13,9 @@ export default function Landing() {
       <div className="fixed inset-0 z-0 bg-slate-50 dark:bg-slate-950 transition-colors duration-500">
         {/* Tematik müze/istanbul görseli */}
         <img 
-          src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?q=80&w=2070&auto=format&fit=crop" 
-          alt="Museum Background" 
+          src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?q=80&w=1920&auto=format&fit=crop" 
+          alt="İstanbul müzelerini gösteren arka plan görseli" 
+          fetchPriority="high"
           className="w-full h-full object-cover scale-110 opacity-100 dark:opacity-40 transition-opacity duration-700"
         />
         {/* iOS Vari Yarı Şeffaf Blur Katmanı */}
